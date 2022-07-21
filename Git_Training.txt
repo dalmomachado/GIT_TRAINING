@@ -1,0 +1,11 @@
+# start the ssh-agent in the background
+eval "$(ssh-agent -s)"
+> Agent pid 59566
+
+ssh-add ~/.ssh/id_ed59566
+
+ssh-add ~/.ssh/id_ed25519
+
+Identity added: /d/Users/dalmo/.ssh/id_ed25519 (dalmomachado@id.uff.br)
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJTt+a5V5weuDZxABh6RgBH5+8GG50zIIuCeFJsufx/X dalmomachado@id.uff.br
